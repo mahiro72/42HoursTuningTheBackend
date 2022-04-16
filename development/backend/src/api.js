@@ -342,7 +342,7 @@ const tomeActive = async (req, res) => {
   }
 
   const searchMyGroupQs = `select group_id from group_member where user_id = ?`;
-  const searchTargetQs = `select category_id,application_group from category_group where group_id in (${searchMyGroupQs})`;
+  const searchTargetQs = `select category_id as categoryId,application_group as applicationGroup from category_group where group_id in (${searchMyGroupQs})`;
   
   const [targetCategoryAppGroupList] = await pool.query(searchTargetQs, [user.user_id]);
 
