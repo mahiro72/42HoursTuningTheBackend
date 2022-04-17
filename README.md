@@ -17,3 +17,15 @@
 |- provisioning/    # 競技環境構築関連(運営者向け)
 |- scoring/         # 採点関連モジュール
 ```
+
+<br>
+<br>
+
+___
+
+優勝しました！！
+チームの勝利👑
+
+<a href="https://twitter.com/DreamArts_PR/status/1515585442200301570">
+  <img src="https://user-images.githubusercontent.com/70263039/163705428-427f318f-068a-40d6-af21-428d0675cde3.png" >
+</a>
